@@ -17,6 +17,17 @@ bound:
 julia --project=. --check-bounds=yes -e 'import Pkg; Pkg.test()'
 ```
 
+## examples
+```bash
+julia --project=. examples/rump.jl
+julia --project=. examples/catastrophic_cancellation.jl
+julia --project=. examples/muller_sequence.jl
+julia --project=. examples/logistic_map.jl
+julia --project=. examples/branching_instability.jl
+julia --project=. examples/summation_kahan.jl
+julia --project=. examples/hilbert_solve.jl
+```
+
 ## docs
 
 ```bash
