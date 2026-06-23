@@ -52,3 +52,25 @@ julia --project=. examples/rump.jl
 ```julia
 julia --project=docs docs/make.jl
 ```
+
+
+## References
+
+
+[1] Avot-Chotin, R. and Mehrez, H. (2004) ‘Hardware implementation of discrete stochastic arithmetic’, *Numerical Algorithms*, 37(1–4), pp. 21–33. doi: 10.1023/B:NUMA.0000049455.07441.ee.
+
+[2]  Chen, X., Hilaire, T. and Jézéquel, F. (2026) ‘Floating-point autotuning with customized precisions’. arXiv:2606.08339 [cs.MS]. Available at: https://arxiv.org/abs/2606.08339.
+
+[3]  Chesneaux, J.-M. and Vignes, J. (1992) ‘Les fondements de l’arithmétique stochastique’, *Comptes Rendus de l’Académie des Sciences, Paris, Série I*, 315, pp. 1435–1440.
+
+[4]  La Porte, M. and Vignes, J. (1974) ‘Étude statistique des erreurs dans l’arithmétique des ordinateurs; application au contrôle des résultats d’algorithmes numériques’, *Numerische Mathematik*, 23, pp. 63–72. doi: 10.1007/BF01409991.
+
+[5]  Vignes, J. (1978) ‘New methods for evaluating the validity of the results of mathematical computations’, *Mathematics and Computers in Simulation*, 20(4), pp. 227–249. doi: 10.1016/0378-4754(78)90016-2.
+
+[6] Vignes, J. (1987) ‘Zéro mathématique et zéro informatique’, *La Vie des Sciences, Comptes Rendus de l’Académie des Sciences, Série générale*, 4(1), pp. 1–13.
+
+[7] Vignes, J. (1993) ‘A stochastic arithmetic for reliable scientific computation’, *Mathematics and Computers in Simulation*, 35(3), pp. 233–261. doi: 10.1016/0378-4754(93)90003-D.
+
+[8] Vignes, J. (2004) ‘Discrete stochastic arithmetic for validating results of numerical software’, *Numerical Algorithms*, 37(1–4), pp. 377–390. doi: 10.1023/B:NUMA.0000049483.75679.ce.
+
+[9] Vignes, J. and La Porte, M. (1974) ‘Error analysis in computing’, in Rosenfeld, J.L. (ed.) *Information Processing 74: Proceedings of IFIP Congress 74, Stockholm, Sweden, 5–10 August 1974*. Amsterdam: North-Holland, pp. 610–614.
