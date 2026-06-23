@@ -5,9 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
-``DSArith.jl`` implements **Discrete Stochastic Arithmetic (DSA)** in Julia with synchronous **Control and Stochastic Estimation of Rounding Errors (CESTAC, from french - Contrôle et Estimation STochastique des Arrondis de Calculs)** lanes. CESTAC is a numerical stability check method based on repeated stochastic evaluations and confidence-based significant-digit estimate. DSA method is an synchronous CESTAC lanes + computational zero + stochastic relations/diagnostics for numerically unstable control flow.
-
-
+``DSArith.jl`` is an efficient Julia library for the implementation of **Discrete Stochastic Arithmetic (DSA)**, based on the synchronous use of **CESTAC (Contrôle et Estimation Stochastique des Arrondis de Calculs, i.e., Control and Stochastic Estimation of Round-off Errors)**. CESTAC is a stochastic arithmetic method for assessing the numerical accuracy of computed results. Its principle relies on repeated stochastic evaluations and confidence-based estimation of significant digits. DSA extends synchronous CESTAC evaluations with the notion of computational zero and stochastic relations, providing diagnostics for numerically unstable comparisons and control flow.
 
 ## What it is - features
 
