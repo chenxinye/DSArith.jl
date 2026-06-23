@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: DSArith.jl
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: chenxinye
+version: 0.1.0
+date-released: 2026-06-23
+license: MIT
+repository-code: "https://github.com/chenxinye/DSArith.jl"
