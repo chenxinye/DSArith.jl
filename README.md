@@ -10,14 +10,13 @@
 
 
 ## What it is - features
+
 - Synchronous multi-lane stochastic floating-point arithmetic (`DSFloat{T,N}`)
+- CADNA-inspired diagnostics
+- Common elementary-function coverage on `DSFloat` (roots, trig/inverse trig, hyperbolic/inverse hyperbolic, exp/log families)
 - Directed random rounding (`RoundDown`/`RoundUp`) per lane per operation
 - CESTAC significant-digit estimates and computational zero (`@.0`)
 - Stochastic relations (`s_eq`, `s_gt`, ...)
-- CADNA-inspired diagnostics
-- Common elementary-function coverage on `DSFloat` (roots, trig/inverse trig, hyperbolic/inverse hyperbolic, exp/log families)
-
-
 
 
 
