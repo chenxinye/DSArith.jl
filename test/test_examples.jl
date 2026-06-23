@@ -22,5 +22,7 @@ using DSArith
     r = with_context(DSAContext(seed=7)) do
         9*ds(10864.0)^4 - ds(18817.0)^4 + 2*ds(18817.0)^2
     end
+    @test std_value(r) > 0
+    @test significant_digits(r) <= 1
     @test iscomputedzero(r) || accuracy(r) <= 1
 end
