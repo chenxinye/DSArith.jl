@@ -1,5 +1,8 @@
 # DSArith.jl
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
 DSArith.jl implements **Discrete Stochastic Arithmetic (DSA)** in Julia with synchronous CESTAC lanes.
 
 ## What it is
