@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
+[![Documentation](https://github.com/chenxinye/DSArith2.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/chenxinye/DSArith2.jl/actions/workflows/Documentation.yml)
 
 DSArith.jl implements **Discrete Stochastic Arithmetic (DSA)** in Julia with synchronous CESTAC lanes.
 
