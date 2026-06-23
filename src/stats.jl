@@ -32,7 +32,7 @@ function significant_digits(x::DSFloat{T,N}; beta::Real=default_context().config
     σ = std_value(x)
 
     if σ == 0.0
-        return m == 0.0 ? -Inf : Inf
+        return m == 0.0 ? -Inf : 0.0
     end
 
     if m == 0.0
@@ -57,7 +57,7 @@ end
 
 function iscomputedzero(x::DSFloat)
     all(iszero, x.samples) && return true
-    return significant_digits(x) <= 0
+    return significant_digits(x) < 0
 end
 
 is_computed_zero(x::DSFloat) = iscomputedzero(x)

@@ -18,6 +18,7 @@ using DSArith
     @test iscomputedzero(z)
 
     y = DSFloat{Float64,3}((1.0, 1.0, 1.0))
-    @test isinf(significant_digits(y))
-    @test accuracy(y) >= 1
+    @test significant_digits(y) == 0.0
+    @test accuracy(y) == 0
+    @test !iscomputedzero(y)
 end
