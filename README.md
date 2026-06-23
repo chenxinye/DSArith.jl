@@ -1,12 +1,15 @@
 # DSArith.jl
 
 [![CI](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Documentation](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-DSArith.jl implements **Discrete Stochastic Arithmetic (DSA)** in Julia with synchronous CESTAC lanes.
 
-## What it is
+**Control and Stochastic Estimation of Rounding Errors (CESTAC, from french - Contrôle et Estimation STochastique des Arrondis de Calculs)** is a numerical stability check method based on repeated stochastic evaluations and confidence-based significant-digit estimate. The **Discrete Stochastic Arithmetic (DSA)**  is an synchronous CESTAC lanes + computational zero + stochastic relations/diagnostics for numerically unstable control flow.
+
+``DSArith.jl`` implements DSA in Julia with synchronous CESTAC lanes.
+
+## What it is - features
 - Synchronous multi-lane stochastic floating-point arithmetic (`DSFloat{T,N}`)
 - Directed random rounding (`RoundDown`/`RoundUp`) per lane per operation
 - CESTAC significant-digit estimates and computational zero (`@.0`)
@@ -14,15 +17,9 @@ DSArith.jl implements **Discrete Stochastic Arithmetic (DSA)** in Julia with syn
 - CADNA-inspired diagnostics
 - Common elementary-function coverage on `DSFloat` (roots, trig/inverse trig, hyperbolic/inverse hyperbolic, exp/log families)
 
-## What it is not
-- Not ordinary Monte-Carlo random perturbation of whole program runs
-- Not simple stochastic rounding only
-- Not a guarantee of exact correctness; significance estimates are probabilistic
 
-## DSA vs CESTAC vs stochastic rounding
-- **Stochastic rounding**: randomized rounding rule for individual operations.
-- **CESTAC**: repeated stochastic evaluations and confidence-based significant-digit estimate.
-- **DSA**: synchronous CESTAC lanes + computational zero + stochastic relations/diagnostics for numerically unstable control flow.
+
+
 
 ## Installation
 ```julia
