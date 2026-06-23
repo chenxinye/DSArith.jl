@@ -5,9 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
-**Control and Stochastic Estimation of Rounding Errors (CESTAC, from french - Contrôle et Estimation STochastique des Arrondis de Calculs)** is a numerical stability check method based on repeated stochastic evaluations and confidence-based significant-digit estimate. The **Discrete Stochastic Arithmetic (DSA)**  is an synchronous CESTAC lanes + computational zero + stochastic relations/diagnostics for numerically unstable control flow.
+``DSArith.jl`` implements **Discrete Stochastic Arithmetic (DSA)** in Julia with synchronous **Control and Stochastic Estimation of Rounding Errors (CESTAC, from french - Contrôle et Estimation STochastique des Arrondis de Calculs)** lanes. CESTAC is a numerical stability check method based on repeated stochastic evaluations and confidence-based significant-digit estimate. DSA method is an synchronous CESTAC lanes + computational zero + stochastic relations/diagnostics for numerically unstable control flow.
 
-``DSArith.jl`` implements DSA in Julia with synchronous CESTAC lanes.
+
 
 ## What it is - features
 - Synchronous multi-lane stochastic floating-point arithmetic (`DSFloat{T,N}`)
