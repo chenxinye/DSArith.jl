@@ -8,6 +8,7 @@ DSArith.jl implements **Discrete Stochastic Arithmetic (DSA)** in Julia with syn
 - CESTAC significant-digit estimates and computational zero (`@.0`)
 - Stochastic relations (`s_eq`, `s_gt`, ...)
 - CADNA-inspired diagnostics
+- Common elementary-function coverage on `DSFloat` (roots, trig/inverse trig, hyperbolic/inverse hyperbolic, exp/log families)
 
 ## What it is not
 - Not ordinary Monte-Carlo random perturbation of whole program runs

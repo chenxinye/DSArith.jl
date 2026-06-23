@@ -17,6 +17,16 @@
 - `iscomputedzero`, `is_computed_zero`
 - `stochastic_string`, `report`
 
+## Elementary functions on `DSFloat`
+
+- Roots: `sqrt`, `cbrt`
+- Trigonometric: `sin`, `cos`, `tan`, `sec`, `csc`, `cot`
+- Inverse trigonometric: `asin`, `acos`, `atan`, `asec`, `acsc`, `acot`
+- Hyperbolic: `sinh`, `cosh`, `tanh`, `sech`, `csch`, `coth`
+- Inverse hyperbolic: `asinh`, `acosh`, `atanh`, `asech`, `acsch`, `acoth`
+- Exponential: `exp`, `exp2`, `exp10`, `expm1`
+- Logarithmic: `log`, `log2`, `log10`, `log1p`
+
 ## Stochastic relations
 
 - `s_eq`, `s_ne`, `s_gt`, `s_ge`, `s_lt`, `s_le`

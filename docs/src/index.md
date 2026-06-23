@@ -19,6 +19,7 @@ Core ideas:
 
 - **DS floating-point type**: `DSFloat` with lane-level samples.
 - **Execution context**: `DSAContext` / `DSAConfig` for lane count, seeds, and diagnostics.
+- **Elementary function family**: roots, trigonometric/inverse trigonometric, hyperbolic/inverse hyperbolic, exponential, and logarithmic functions on `DSFloat`.
 - **Statistical quality metrics**: `mean_value`, `std_value`, `significant_digits`, `accuracy`.
 - **Numerical status checks**: `iscomputedzero`, `stochastic_string`, `report`.
 - **Stochastic relations**: `s_eq`, `s_gt`, `s_ge`, `s_lt`, `s_le`.
