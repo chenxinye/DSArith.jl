@@ -1,0 +1,19 @@
+:root {
+  --documenter-primary: #0f766e;
+  --documenter-link-color: #0f766e;
+}
+
+.docs-main h1,
+.docs-main h2,
+.docs-main h3 {
+  letter-spacing: 0.01em;
+}
+
+.docs-main p,
+.docs-main li {
+  line-height: 1.7;
+}
+
+.docs-sidebar {
+  border-right: 1px solid #e5e7eb;
+}
