@@ -1,5 +1,6 @@
 # DSArith.jl
 
+[![Registry](https://img.shields.io/badge/Julia%20General-registered-success.svg)](https://github.com/JuliaRegistries/General/tree/master/D/DSArith)
 [![CI](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml)
 [![Documentation](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -19,6 +20,13 @@
 
 
 ## Installation
+
+ Install via 
+```julia
+Pkg.add("DSArith")
+```
+
+ or install with
 ```julia
 import Pkg
 Pkg.add(url="https://github.com/chenxinye/DSArith.jl")
