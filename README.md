@@ -2,7 +2,6 @@
 
 [![Registry](https://img.shields.io/badge/Julia%20General-registered-success.svg)](https://github.com/JuliaRegistries/General/tree/master/D/DSArith)
 [![CI](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/chenxinye/DSArith2.jl/actions/workflows/CI.yml)
-[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://chenxinye.github.io/DSArith.jl/dev/)
 [![Documentation](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/chenxinye/DSArith.jl/actions/workflows/Documentation.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
